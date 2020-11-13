@@ -1,0 +1,6 @@
+test_xxx:
+  - hello.a: [ ]
+  - print: [ "abc" ]
+  - re.search: [ ".*","xxx" ]
+  - save: [ tmp ]
+  - print: [ $(tmp) ]
